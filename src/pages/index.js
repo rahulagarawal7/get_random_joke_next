@@ -29,7 +29,7 @@ export default function Home() {
     <>
       {/* ✅ SEO Optimization */}
       <Head>
-        <title>Let's Laugh Together 😄 | Random Joke Generator</title>
+        <title>{"Let's Laugh Together 😄 | Random Joke Generator"}</title>
         <meta
           name="description"
           content="Spread smiles and laughter! Get a random funny joke every time you click. Built with Next.js and Tailwind CSS."
@@ -39,7 +39,7 @@ export default function Home() {
           content="Joke, Random Joke, Laughter, Smile, Funny, Next.js, Tailwind CSS, API jokes"
         />
         <meta name="author" content="Rahul Agrawal" />
-        <meta property="og:title" content="Let's Laugh Together 😄" />
+        <meta property="og:title" content={"Let's Laugh Together 😄"} />
         <meta
           property="og:description"
           content="A fun Next.js app that makes you smile with a random joke every time!"
@@ -51,10 +51,10 @@ export default function Home() {
       <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-yellow-300 via-orange-400 to-pink-500 text-center px-6 py-10 sm:px-8">
         {/* 🎯 Fun heading */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-white via-yellow-100 to-pink-200 drop-shadow-lg">
-          Let’s Laugh
+          {"Let's Laugh"}
         </h1>
         <p className="text-white text-base sm:text-lg mb-8 opacity-90">
-          A little smile can change your day — here’s one from us! 💫
+          {"A little smile can change your day — here's one from us! 💫"}
         </p>
 
         <div className="w-full flex flex-col items-center max-w-lg">
